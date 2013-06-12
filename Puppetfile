@@ -36,3 +36,4 @@ github "sudo",       "1.0.0"
 
 github "osx",        "1.3.0"
 github "zsh",        "1.0.0"
+github "virtualbox", "1.0.3"
