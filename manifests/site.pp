@@ -63,6 +63,7 @@ node default {
   include mysql
   include java
   include elasticsearch
+  include mongodb
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
