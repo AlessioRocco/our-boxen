@@ -64,6 +64,7 @@ node default {
   include java
   include elasticsearch
   include mongodb
+  include heroku
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
