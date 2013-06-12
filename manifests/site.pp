@@ -66,6 +66,7 @@ node default {
   include mongodb
   include heroku
   include chrome
+  include ctags
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
