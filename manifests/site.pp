@@ -67,6 +67,35 @@ node default {
   include heroku
   include chrome
   include ctags
+  include picasa
+  include dropbox
+  include induction
+  include foreman
+  include iterm2::stable
+  include picasa
+  include autoconf
+  include libtool
+  include erlang
+  include spotify
+  include hipchat
+  include kindle
+  include googledrive
+  include flux
+  include clipmenu
+  include magican
+  include tmux
+  include adobe_reader
+  include asciiio
+  include sequel_pro
+  include imagemagick
+  include skype
+  include memcached
+  include memcached::lib
+  include cord
+  include wget
+  include redis
+  include macvim
+  include hub
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
